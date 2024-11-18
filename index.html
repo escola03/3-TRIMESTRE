@@ -1,30 +1,85 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redes Sociais</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Site sobre Motos</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js" charset="utf-8"></script>
 </head>
 <body>
     <header>
-        <h1>Relatório das redes sociais</h1>
+        <div class="logo">
+            <h1>Motos Incríveis</h1>
+        </div>
         <nav>
-            <a href="index.html">Mundo</a>
-            <a href="#">Minha escola</a>
+            <ul>
+                <li><a href="#modelos">Modelos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
         </nav>
     </header>
-    <main class="graficos-section">
-        <section id="graficos-container" class="graficos-container">
-            <!-- crie os gráficos/texto aqui -->
-        </section>
-    </main>
-    <footer>
-        <p>Desenvolvido por GUILHERME</p>
-    </footer>
-    <script type="module" src="graficos/common.js"></script>
-    <script type="module" src="graficos/informacoesGlobais.js"></script>
-    <script type="module" src="graficos/quantidadeUsuarios.js"></script>
-</body>
-</html>
+
+    <section id="modelos" class="content-section">
+        <h2>Modelos de Motos</h2>
+        
+        <!-- Harley-Davidson Softail Standard -->
+        <div class="moto-card">
+            <h3>Harley-Davidson Softail Standard</h3>
+            <p><strong>Motor e Desempenho:</strong> A Softail Standard vem equipada com um motor V-twin de 1745cc, com uma potência de 86 cv e torque de 145 Nm. Isso oferece uma excelente performance tanto para passeios urbanos quanto para viagens mais longas.</p>
+            <p><strong>Conforto:</strong> O conforto é um dos pontos fortes dessa moto. A suspensão traseira é equipada com o sistema Softail, que proporciona uma condução mais suave. Seu assento de design clássico e a posição de pilotagem relaxada tornam longas distâncias muito mais agradáveis.</p>
+            <p><strong>Design:</strong> A Harley-Davidson Softail Standard possui um visual minimalista com linhas limpas e tradicionais, mas com detalhes modernos, como o quadro Softail, que combina o estilo clássico com a engenharia atual.</p>
+            <p><strong>Uso recomendado:</strong> Ideal para quem gosta de motos de estilo cruiser, focadas em conforto e estética, para passeios tranquilos e longas viagens.</p>
+        </div>
+
+        <!-- Ducati Panigale V4 -->
+        <div class="moto-card">
+            <h3>Ducati Panigale V4</h3>
+            <p><strong>Motor e Desempenho:</strong> A Panigale V4 é equipada com o motor V4 Desmosedici Stradale de 1103cc, entregando impressionantes 214 cv e torque de 124 Nm. Com essa potência, é uma das motos mais potentes e rápidas da Ducati, ideal para pistas e corridas.</p>
+            <p><strong>Conforto:</strong> Embora seu foco seja a performance, a Ducati Panigale V4 possui uma ergonomia projetada para fornecer controle e estabilidade em altas velocidades, mas o conforto pode ser um pouco mais exigente devido à sua postura esportiva e rígida.</p>
+            <p><strong>Design:</strong> A estética da Panigale V4 é agressiva, com linhas afiadas e um visual aerodinâmico, projetado para reduzir a resistência do ar e maximizar a performance. É uma verdadeira obra de arte sobre duas rodas.</p>
+            <p><strong>Uso recomendado:</strong> Ideal para pilotos que buscam alta performance em circuitos e estradas sinuosas. Perfeita para quem tem paixão por velocidade e desempenho.</p>
+        </div>
+
+        <!-- BMW R1250 GS -->
+        <div class="moto-card">
+            <h3>BMW R1250 GS</h3>
+            <p><strong>Motor e Desempenho:</strong> Equipado com um motor boxer de 1254cc, que gera 136 cv e 143 Nm de torque, o que proporciona um desempenho impressionante em qualquer tipo de terreno. Além disso, seu sistema de tração integral e suspensão ajustável tornam a R1250 GS perfeita para aventuras off-road.</p>
+            <p><strong>Conforto:</strong> O conforto é um dos pontos fortes dessa moto. A posição de pilotagem é ergonômica, com o assento ajustável, e o sistema de suspensão adaptativa proporciona uma condução suave, mesmo nas estradas mais irregulares.</p>
+            <p><strong>Design:</strong> A R1250 GS apresenta um design robusto e aventureiro, com tanque grande e rodas de raios para maior resistência. Seu visual é projetado para transmitir a ideia de força e confiabilidade em terrenos difíceis.</p>
+            <p><strong>Uso recomendado:</strong> Ideal para motociclistas que buscam uma moto para longas viagens de aventura, tanto em asfalto quanto em terrenos off-road. Perfeita para explorar o mundo com conforto e segurança.</p>
+        </div>
+
+        <!-- Kawasaki Ninja 400 -->
+        <div class="moto-card">
+            <h3>Kawasaki Ninja 400</h3>
+            <p><strong>Motor e Desempenho:</strong> A Ninja 400 é equipada com um motor bicilíndrico de 399cc que gera 49 cv e 38 Nm de torque. Sua performance é excelente para um modelo de entrada, oferecendo uma boa combinação de potência e manobrabilidade.</p>
+            <p><strong>Conforto:</strong> A Ninja 400 oferece uma posição de pilotagem esportiva, mas ainda assim confortável para pilotar por longas distâncias, principalmente para quem busca um modelo intermediário entre uma moto esportiva e uma naked.</p>
+            <p><strong>Design:</strong> O design da Ninja 400 é inspirado em modelos de alta performance, com uma carenagem agressiva e linhas aerodinâmicas. Seu visual é moderno, com um toque de esportividade.</p>
+            <p><strong>Uso recomendado:</strong> Ideal para iniciantes ou motociclistas que buscam uma moto intermediária com excelente desempenho e boa relação custo-benefício.</p>
+        </div>
+
+        <!-- Royal Enfield Himalayan -->
+        <div class="moto-card">
+            <h3>Royal Enfield Himalayan</h3>
+            <p><strong>Motor e Desempenho:</strong> Equipado com um motor monocilíndrico de 411cc, a Himalayan entrega 24,3 cv e 32 Nm de torque. Sua performance é suficiente para encarar terrenos difíceis, com um foco maior em resistência e versatilidade off-road.</p>
+            <p><strong>Conforto:</strong> O assento confortável e a suspensão longa garantem um passeio suave, mesmo em estradas irregulares. A posição de pilotagem é relaxada, proporcionando uma experiência agradável em viagens longas.</p>
+            <p><strong>Design:</strong> A Himalayan possui um design simples e robusto, com foco na funcionalidade. Seu visual é mais focado na utilidade e no desempenho em terrenos difíceis, com uma aparência de moto de aventura clássica.</p>
+            <p><strong>Uso recomendado:</strong> Ideal para motociclistas que buscam uma moto de turismo e aventura para explorar estradas de terra e trilhas, com um bom custo-benefício.</p>
+        </div>
+
+        <!-- Triumph Bonneville T100 -->
+        <div class="moto-card">
+            <h3>Triumph Bonneville T100</h3>
+            <p><strong>Motor e Desempenho:</strong> Equipado com um motor bicilíndrico paralelo de 900cc, com 55 cv e 80 Nm de torque, a Bonneville T100 oferece um desempenho suave e prazeroso, perfeito para passeios urbanos e viagens curtas.</p>
+            <p><strong>Conforto:</strong> A posição de pilotagem é muito confortável, com um assento macio e uma suspensão equilibrada, tornando-a ideal para passeios relaxantes e viagens de fim de semana.</p>
+            <p><strong>Design:</strong> O design clássico da Bonneville T100 faz dela uma moto atemporal. Suas linhas retrô e tanque de combustível arredondado são detalhes que encantam os fãs de motos vintage.</p>
+            <p><strong>Uso recomendado:</strong> Ideal para quem procura uma moto clássica para passeios urbanos e viagens curtas, com um estilo retro e moderno ao mesmo tempo.</p>
+        </div>
+
+        <!-- Yamaha FZ-09 -->
+        <div class="moto-card">
+            <h3>Yamaha FZ-09</h3>
+            <p><strong>Motor e Desempenho:</strong> A Yamaha FZ-09 vem com um motor de 847cc, gerando 115 cv e 87,5 Nm de torque. Essa potência a torna uma moto ágil e com excelente desempenho em pistas e estradas urbanas.</p>
+            <p><strong>Conforto:</strong> A posição de pilotagem é esportiva, mas ainda confortável para passeios urbanos e viagens curtas. A suspensão traseira é ajustável, o que ajuda a manter o conforto em diferentes tipos de terreno.</p>
+            <p><strong>Design:</strong> O design da FZ-09 é agressivo, com um visual de moto naked.
